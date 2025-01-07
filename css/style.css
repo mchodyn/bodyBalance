@@ -489,23 +489,21 @@ p {
   box-shadow: 0px 34px 57px 0px rgba(0, 0, 0, 0.04);
   background: #ffffff;
   position: absolute;
-  padding-left: 100px;
   margin-left: -28px;
   z-index: 5;
-  padding: 50px 100px;
-  padding-right: 120px;
+  padding: 50px 120px 62px 100px;
 }
 @media (max-width: 1199px) {
   .about-us-content {
     margin-left: -18px;
-    padding: 20px 30px;
+    padding: 20px 30px 44px 30px;
   }
 }
 @media (max-width: 991px) {
   .about-us-content {
     position: relative;
     margin-left: 0;
-    padding: 20px 30px;
+    padding: 20px 30px 44px 30px;
   }
 }
 
@@ -895,10 +893,10 @@ a {
   }
 }
 .fh5co-news .owl-carousel2 .owl-prev {
-  left: -100px;
+  left: -80px;
 }
 .fh5co-news .owl-carousel2 .owl-next {
-  right: -100px;
+  right: -80px;
 }
 
 footer.fh5co-footer h2 {
@@ -1044,4 +1042,20 @@ footer.fh5co-footer .social-links li a {
 }
 .nav-link {
   white-space: nowrap;
+}
+
+.cta {
+  color: white;
+  background-image: -webkit-linear-gradient(0deg, #1270e4 0%, #58c0ff 100%);
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.cta:hover {
+  color: white;
+}
+.my-nav{
+  flex-grow: unset !important;
+  width: 100% !important;
 }
