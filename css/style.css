@@ -316,7 +316,6 @@ nav.fixed-top {
 }
 
 .social-links {
-  width: 430px;
 }
 .social-links li {
   border: 1px solid #ffffff;
@@ -341,7 +340,7 @@ nav.fixed-top {
 }
 
 .menu-links {
-  width: 430px;
+  /*width: 430px;*/
 }
 .menu-links li {
   margin: 0px;
@@ -1056,6 +1055,5 @@ footer.fh5co-footer .social-links li a {
   color: white;
 }
 .my-nav{
-  flex-grow: unset !important;
   width: 100% !important;
 }
