@@ -1045,7 +1045,7 @@ footer.fh5co-footer .social-links li a {
 
 .cta {
   color: white;
-  background-image: -webkit-linear-gradient(0deg, #1270e4 0%, #58c0ff 100%);
+  background: #1270e4;
   padding: 16px;
   font-size: 18px;
   font-weight: 600;
